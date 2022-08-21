@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace Arch.Core.Runtime.Impl
+namespace Arch.Core.Runtime
 {
     public class RunTimeService : IRunTimeService
     {

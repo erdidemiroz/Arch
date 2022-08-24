@@ -7,21 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{863A8222-87D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{63706DF7-6F45-452F-9394-317EC8ABD898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Api", "src\Presentation\Arch.Api\Arch.Api.csproj", "{B2C856B0-46B7-4AE2-9C70-BC2E326C01ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Api", "src\Presentation\Arch.Api\Arch.Api.csproj", "{B2C856B0-46B7-4AE2-9C70-BC2E326C01ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{E2204DFC-770A-4430-9661-2C5FBC430307}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8720E908-B8E8-4B1E-B489-2BAC4638BE83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core", "src\Core\Arch.Core\Arch.Core.csproj", "{602A32AE-4058-40F9-A5FD-E65859077712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Core", "src\Core\Arch.Core\Arch.Core.csproj", "{602A32AE-4058-40F9-A5FD-E65859077712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core.Entity", "src\Core\Arch.Core.Entity\Arch.Core.Entity.csproj", "{D50CAD17-F78C-4D73-A59C-E0E0B3128657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Core.Entity", "src\Core\Arch.Core.Entity\Arch.Core.Entity.csproj", "{D50CAD17-F78C-4D73-A59C-E0E0B3128657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core.Runtime", "src\Core\Arch.Core.Runtime\Arch.Core.Runtime.csproj", "{61A6A401-A884-4960-98FB-BA91F38AFA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Core.Runtime", "src\Core\Arch.Core.Runtime\Arch.Core.Runtime.csproj", "{61A6A401-A884-4960-98FB-BA91F38AFA80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core.Authentication", "src\Core\Arch.Core.Authentication\Arch.Core.Authentication.csproj", "{E635F099-A64C-45B9-B25D-ACD3D57B8A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Core.Authentication", "src\Core\Arch.Core.Authentication\Arch.Core.Authentication.csproj", "{E635F099-A64C-45B9-B25D-ACD3D57B8A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core.Configuration", "src\Core\Arch.Core.Configuration\Arch.Core.Configuration.csproj", "{771D18E8-5CE1-4AED-A685-0116B3D4086E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Core.Configuration", "src\Core\Arch.Core.Configuration\Arch.Core.Configuration.csproj", "{771D18E8-5CE1-4AED-A685-0116B3D4086E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Core.Services", "src\Core\Arch.Core.Services\Arch.Core.Services.csproj", "{B835F551-73C1-4FA0-B347-127FF38CD102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{771D18E8-5CE1-4AED-A685-0116B3D4086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{771D18E8-5CE1-4AED-A685-0116B3D4086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{771D18E8-5CE1-4AED-A685-0116B3D4086E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B835F551-73C1-4FA0-B347-127FF38CD102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B835F551-73C1-4FA0-B347-127FF38CD102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B835F551-73C1-4FA0-B347-127FF38CD102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B835F551-73C1-4FA0-B347-127FF38CD102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{61A6A401-A884-4960-98FB-BA91F38AFA80} = {8720E908-B8E8-4B1E-B489-2BAC4638BE83}
 		{E635F099-A64C-45B9-B25D-ACD3D57B8A48} = {8720E908-B8E8-4B1E-B489-2BAC4638BE83}
 		{771D18E8-5CE1-4AED-A685-0116B3D4086E} = {8720E908-B8E8-4B1E-B489-2BAC4638BE83}
+		{B835F551-73C1-4FA0-B347-127FF38CD102} = {8720E908-B8E8-4B1E-B489-2BAC4638BE83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3BCC746-676A-4697-94B1-89BC302906B3}
